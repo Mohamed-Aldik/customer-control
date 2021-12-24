@@ -1,0 +1,120 @@
+[12-Nov-2021 16:40:41 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 39
+[12-Nov-2021 16:40:41 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 40
+[12-Nov-2021 16:40:41 Asia/Riyadh] PHP Fatal error:  During class fetch: Uncaught ErrorException: The magic method Box\Spout\Common\Singleton::__wakeup() must have public visibility in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php:39
+Stack trace:
+#0 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include()
+#2 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php(13): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include('/home/cashbbtm/...')
+#5 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Helper/SharedStringsHelper.php(52): Composer\Autoload\ClassLoader->loadClass()
+#7 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Internal/Workbook.php(58): Box\Spout\Writer\XLSX\Helper\SharedStringsHelper->__construct()
+#8 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Writer.php(77): Box\Spout\Writer\XLSX\Internal\Workbook->__construct()
+#9 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/AbstractWriter.php(159): Box\Spout\Writer\XLSX\Writer->openWriter()
+#10 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(96): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#11 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(72): Rap2hpoutre\FastExcel\FastExcel->exportOrDownload()
+#12 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/StreamedResponse.php(109): Rap2hpoutre\FastExcel\FastExcel->Rap2hpoutre\FastExcel\{closure}()
+#13 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/Response.php(394): Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+#14 /home/cashbbtm/demo.oprnize.com/public/index.php(58): Symfony\Component\HttpFoundation\Response->send()
+#15 {main} in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php on line 13
+[12-Nov-2021 16:40:43 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 39
+[12-Nov-2021 16:40:43 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 40
+[12-Nov-2021 16:40:43 Asia/Riyadh] PHP Fatal error:  During class fetch: Uncaught ErrorException: The magic method Box\Spout\Common\Singleton::__wakeup() must have public visibility in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php:39
+Stack trace:
+#0 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include()
+#2 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php(13): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include('/home/cashbbtm/...')
+#5 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Helper/SharedStringsHelper.php(52): Composer\Autoload\ClassLoader->loadClass()
+#7 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Internal/Workbook.php(58): Box\Spout\Writer\XLSX\Helper\SharedStringsHelper->__construct()
+#8 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Writer.php(77): Box\Spout\Writer\XLSX\Internal\Workbook->__construct()
+#9 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/AbstractWriter.php(159): Box\Spout\Writer\XLSX\Writer->openWriter()
+#10 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(96): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#11 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(72): Rap2hpoutre\FastExcel\FastExcel->exportOrDownload()
+#12 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/StreamedResponse.php(109): Rap2hpoutre\FastExcel\FastExcel->Rap2hpoutre\FastExcel\{closure}()
+#13 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/Response.php(394): Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+#14 /home/cashbbtm/demo.oprnize.com/public/index.php(58): Symfony\Component\HttpFoundation\Response->send()
+#15 {main} in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php on line 13
+[12-Nov-2021 16:40:47 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 39
+[12-Nov-2021 16:40:47 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 40
+[12-Nov-2021 16:40:47 Asia/Riyadh] PHP Fatal error:  During class fetch: Uncaught ErrorException: The magic method Box\Spout\Common\Singleton::__wakeup() must have public visibility in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php:39
+Stack trace:
+#0 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include()
+#2 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php(13): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include('/home/cashbbtm/...')
+#5 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Helper/SharedStringsHelper.php(52): Composer\Autoload\ClassLoader->loadClass()
+#7 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Internal/Workbook.php(58): Box\Spout\Writer\XLSX\Helper\SharedStringsHelper->__construct()
+#8 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Writer.php(77): Box\Spout\Writer\XLSX\Internal\Workbook->__construct()
+#9 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/AbstractWriter.php(159): Box\Spout\Writer\XLSX\Writer->openWriter()
+#10 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(96): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#11 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(72): Rap2hpoutre\FastExcel\FastExcel->exportOrDownload()
+#12 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/StreamedResponse.php(109): Rap2hpoutre\FastExcel\FastExcel->Rap2hpoutre\FastExcel\{closure}()
+#13 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/Response.php(394): Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+#14 /home/cashbbtm/demo.oprnize.com/public/index.php(58): Symfony\Component\HttpFoundation\Response->send()
+#15 {main} in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php on line 13
+[12-Nov-2021 16:40:49 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 39
+[12-Nov-2021 16:40:49 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 40
+[12-Nov-2021 16:40:49 Asia/Riyadh] PHP Fatal error:  During class fetch: Uncaught ErrorException: The magic method Box\Spout\Common\Singleton::__wakeup() must have public visibility in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php:39
+Stack trace:
+#0 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include()
+#2 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php(13): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include('/home/cashbbtm/...')
+#5 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Helper/SharedStringsHelper.php(52): Composer\Autoload\ClassLoader->loadClass()
+#7 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Internal/Workbook.php(58): Box\Spout\Writer\XLSX\Helper\SharedStringsHelper->__construct()
+#8 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Writer.php(77): Box\Spout\Writer\XLSX\Internal\Workbook->__construct()
+#9 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/AbstractWriter.php(159): Box\Spout\Writer\XLSX\Writer->openWriter()
+#10 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(96): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#11 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(72): Rap2hpoutre\FastExcel\FastExcel->exportOrDownload()
+#12 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/StreamedResponse.php(109): Rap2hpoutre\FastExcel\FastExcel->Rap2hpoutre\FastExcel\{closure}()
+#13 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/Response.php(394): Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+#14 /home/cashbbtm/demo.oprnize.com/public/index.php(58): Symfony\Component\HttpFoundation\Response->send()
+#15 {main} in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php on line 13
+[28-Nov-2021 07:26:58 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 39
+[28-Nov-2021 07:26:58 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 40
+[28-Nov-2021 07:26:58 Asia/Riyadh] PHP Fatal error:  During class fetch: Uncaught ErrorException: The magic method Box\Spout\Common\Singleton::__wakeup() must have public visibility in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php:39
+Stack trace:
+#0 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include()
+#2 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php(13): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include('/home/cashbbtm/...')
+#5 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Helper/SharedStringsHelper.php(52): Composer\Autoload\ClassLoader->loadClass()
+#7 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Internal/Workbook.php(58): Box\Spout\Writer\XLSX\Helper\SharedStringsHelper->__construct()
+#8 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Writer.php(77): Box\Spout\Writer\XLSX\Internal\Workbook->__construct()
+#9 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/AbstractWriter.php(159): Box\Spout\Writer\XLSX\Writer->openWriter()
+#10 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(96): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#11 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(72): Rap2hpoutre\FastExcel\FastExcel->exportOrDownload()
+#12 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/StreamedResponse.php(109): Rap2hpoutre\FastExcel\FastExcel->Rap2hpoutre\FastExcel\{closure}()
+#13 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/Response.php(394): Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+#14 /home/cashbbtm/demo.oprnize.com/public/index.php(58): Symfony\Component\HttpFoundation\Response->send()
+#15 {main} in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php on line 13
+[28-Nov-2021 07:27:00 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 39
+[28-Nov-2021 07:27:00 Asia/Riyadh] PHP Warning:  Private methods cannot be final as they are never overridden by other classes in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php on line 40
+[28-Nov-2021 07:27:00 Asia/Riyadh] PHP Fatal error:  During class fetch: Uncaught ErrorException: The magic method Box\Spout\Common\Singleton::__wakeup() must have public visibility in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Singleton.php:39
+Stack trace:
+#0 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include()
+#2 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php(13): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(444): include('/home/cashbbtm/...')
+#5 /home/cashbbtm/demo.oprnize.com/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#6 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Helper/SharedStringsHelper.php(52): Composer\Autoload\ClassLoader->loadClass()
+#7 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Internal/Workbook.php(58): Box\Spout\Writer\XLSX\Helper\SharedStringsHelper->__construct()
+#8 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/XLSX/Writer.php(77): Box\Spout\Writer\XLSX\Internal\Workbook->__construct()
+#9 /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Writer/AbstractWriter.php(159): Box\Spout\Writer\XLSX\Writer->openWriter()
+#10 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(96): Box\Spout\Writer\AbstractWriter->openToBrowser()
+#11 /home/cashbbtm/demo.oprnize.com/vendor/rap2hpoutre/fast-excel/src/Exportable.php(72): Rap2hpoutre\FastExcel\FastExcel->exportOrDownload()
+#12 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/StreamedResponse.php(109): Rap2hpoutre\FastExcel\FastExcel->Rap2hpoutre\FastExcel\{closure}()
+#13 /home/cashbbtm/demo.oprnize.com/vendor/symfony/http-foundation/Response.php(394): Symfony\Component\HttpFoundation\StreamedResponse->sendContent()
+#14 /home/cashbbtm/demo.oprnize.com/public/index.php(58): Symfony\Component\HttpFoundation\Response->send()
+#15 {main} in /home/cashbbtm/demo.oprnize.com/vendor/box/spout/src/Spout/Common/Escaper/XLSX.php on line 13

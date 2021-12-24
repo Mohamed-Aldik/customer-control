@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b1b1b1;
+      }
+    </style>
+  </defs>
+  <g id="search-interface-symbol" transform="translate(-0.006)">
+    <g id="_x34__4_" transform="translate(0.006)">
+      <g id="Group_46" data-name="Group 46" transform="translate(0)">
+        <path id="Path_33" data-name="Path 33" class="cls-1" d="M16.845,16.075l-4.389-4.319a6.942,6.942,0,0,0,1.856-4.718A7.1,7.1,0,0,0,7.158,0,7.1,7.1,0,0,0,.006,7.039a7.1,7.1,0,0,0,7.152,7.039,7.193,7.193,0,0,0,4.5-1.572l4.406,4.336a.556.556,0,0,0,.778,0A.536.536,0,0,0,16.845,16.075ZM7.158,12.994A6,6,0,0,1,1.106,7.039,6,6,0,0,1,7.158,1.083,6,6,0,0,1,13.21,7.039,6,6,0,0,1,7.158,12.994Z" transform="translate(-0.006 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b1b1b1;
+      }
+    </style>
+  </defs>
+  <g id="layers" transform="translate(0 -32)">
+    <g id="Group_260" data-name="Group 260" transform="translate(0 32)">
+      <g id="Group_259" data-name="Group 259">
+        <path id="Path_506" data-name="Path 506" class="cls-1" d="M23.732,38.057l-11.5-6a.5.5,0,0,0-.463,0l-11.5,6a.5.5,0,0,0,0,.886l11.5,6a.5.5,0,0,0,.462,0l11.5-6a.5.5,0,0,0,0-.886ZM12,43.937,1.581,38.5,12,33.063,22.419,38.5Z" transform="translate(0 -32)"/>
+      </g>
+    </g>
+    <g id="Group_262" data-name="Group 262" transform="translate(0 41.129)">
+      <g id="Group_261" data-name="Group 261">
+        <path id="Path_507" data-name="Path 507" class="cls-1" d="M23.732,227.666l-1.672-.872a.5.5,0,1,0-.463.887l.822.429L12,233.547,1.581,228.11l.823-.428a.5.5,0,0,0-.463-.887l-1.672.872a.5.5,0,0,0,0,.886l11.5,6a.5.5,0,0,0,.462,0l11.5-6a.5.5,0,0,0,0-.887Z" transform="translate(0 -226.738)"/>
+      </g>
+    </g>
+    <g id="Group_264" data-name="Group 264" transform="translate(0 45.129)">
+      <g id="Group_263" data-name="Group 263">
+        <path id="Path_508" data-name="Path 508" class="cls-1" d="M23.732,313l-1.672-.872a.5.5,0,0,0-.463.887l.822.429L12,318.88,1.581,313.443l.823-.428a.5.5,0,1,0-.463-.887L.269,313a.5.5,0,0,0,0,.886l11.5,6a.5.5,0,0,0,.462,0l11.5-6a.5.5,0,0,0,0-.887Z" transform="translate(0 -312.071)"/>
+      </g>
+    </g>
+  </g>
+</svg>

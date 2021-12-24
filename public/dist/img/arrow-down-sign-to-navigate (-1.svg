@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5.7" height="10" viewBox="0 0 5.7 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b1b1b1;
+      }
+    </style>
+  </defs>
+  <g id="arrow-down-sign-to-navigate_1_" data-name="arrow-down-sign-to-navigate (1)" transform="translate(102.841 -0.001) rotate(90)">
+    <path id="Path_480" data-name="Path 480" class="cls-1" d="M5,102.841a.7.7,0,0,1-.5-.205l-4.3-4.3a.7.7,0,0,1,.99-.99l3.8,3.8,3.8-3.8a.7.7,0,1,1,.99.99l-4.3,4.3A.7.7,0,0,1,5,102.841Z" transform="translate(0)"/>
+  </g>
+</svg>
